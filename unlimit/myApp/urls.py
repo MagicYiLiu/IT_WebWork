@@ -3,7 +3,7 @@ from .import views
 
 app_name = "myApp"
 urlpatterns = [
-    path('home/', views.home, name='Homepage'),
+    path('', views.home, name='Homepage'),
     path('about/', views.about, name='About'),
     path('edit/<forloop_counter>', views.edit, name='Edit'),
     path('del/<forloop_counter>', views.delete, name='Delete'),
