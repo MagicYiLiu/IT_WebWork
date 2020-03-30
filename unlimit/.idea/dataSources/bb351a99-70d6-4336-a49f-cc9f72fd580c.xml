@@ -441,15 +441,14 @@ model</ColNames>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="103" parent="16" name="age">
+    <column id="103" parent="16" name="users_id">
       <Position>2</Position>
-      <DataType>date|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="104" parent="16" name="users_id">
-      <Position>3</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="16" name="age">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
     </column>
     <index id="105" parent="16" name="sqlite_autoindex_myApp_userdata_1">
       <NameSurrogate>1</NameSurrogate>

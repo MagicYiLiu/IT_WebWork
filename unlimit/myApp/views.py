@@ -14,7 +14,7 @@ lst = [
     {'motion': 'Dips For Chest', 'motionDone': True},
 ]
 
-
+# Create Home page
 def home(request):
     # request.POST
     global lst
@@ -30,11 +30,12 @@ def home(request):
         content = {'list': lst}
         return render(request, 'myApp/home.html', content)
 
-
+# Create  About page
 def about(request):
     return render(request, 'myApp/about.html')
 
 
+# Create Edit button
 def edit(request, forloop_counter):
     global lst
     if request.method == 'POST':
@@ -48,12 +49,12 @@ def edit(request, forloop_counter):
         content = {'editWait': lst[int(forloop_counter) - 1]['motion']}
         return render(request, 'myApp/edit.html', content)
 
-
+# Create  Delete button
 def delete(request, forloop_counter):
     lst.pop(int(forloop_counter) - 1)
     return redirect('myApp:Homepage')
 
-
+# Create  Done button
 def cross(request, forloop_counter):
     global lst
     if request.POST['status'] == 'motionDone':
@@ -63,11 +64,11 @@ def cross(request, forloop_counter):
         lst[int(forloop_counter) - 1]['motionDone'] = False
         return redirect('myApp:Homepage')
 
-
+# Create  Graphic tips page
 def graphic(request):
     return render(request, 'myApp/graphic.html')
 
-
+# Create  Video tips page
 def video(request):
     return render(request, 'myApp//Video/video.html')
 
@@ -84,12 +85,12 @@ def signIn(request):
     else:
         return render(request, 'myApp/signIn.html')
 
-
+# Create Sign out views
 def signOut(request):
     logout(request)
     return redirect("myApp:Homepage")
 
-
+# Create Register views
 def gotoRegister(request):
     if request.method == 'POST':
         registerForm = extendUserData(request.POST)
@@ -105,14 +106,14 @@ def gotoRegister(request):
     content = {'registerForm': registerForm}
     return render(request, 'myApp/register.html', content)
 
-
+# Create 31days tips of graphic views
 def graphic_31days(request):
     return render(request, 'myApp/graphic/graphic_31days.html')
 
-
+# Create Abs tips of graphic views
 def graphic_Abs(request):
     return render(request, 'myApp/graphic/graphic_Abs.html')
 
-
+# Create Arms tips of graphic views
 def graphic_Arms(request):
     return render(request, 'myApp/graphic/graphic_Arms.html')

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="898b66f5-b8e7-4584-9407-83fdbf9a794b" name="Default Changelist" comment="" />
+    <list default="true" id="898b66f5-b8e7-4584-9407-83fdbf9a794b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bb351a99-70d6-4336-a49f-cc9f72fd580c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bb351a99-70d6-4336-a49f-cc9f72fd580c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/migrations/0002_auto_20200321_1656.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/migrations/0003_auto_20200321_1737.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/migrations/0004_auto_20200321_1741.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/migrations/0005_remove_userdata_age.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/migrations/0006_userdata_age.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/migrations/0007_auto_20200321_1749.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myApp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myApp/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myApp/graphic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/graphic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myApp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myApp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myApp/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myApp/signIn.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +74,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Z8y45ZL2aPGdcQPnCAqPGtcM62" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,7 +89,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -163,6 +188,9 @@
       <workItem from="1585408104898" duration="16502000" />
       <workItem from="1585504827701" duration="5945000" />
       <workItem from="1585523990024" duration="472000" />
+      <workItem from="1585598679865" duration="2910000" />
+      <workItem from="1585608623617" duration="28000" />
+      <workItem from="1585608773154" duration="72000" />
     </task>
     <servers />
   </component>
@@ -202,6 +230,10 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="241" y="57" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1584237937163" />
+    <state x="478" y="233" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1585607377040">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="478" y="233" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.23.1440.795@0.23.1440.795" timestamp="1585607377040" />
     <state x="925" y="142" width="670" height="676" key="search.everywhere.popup" timestamp="1584900624996">
       <screen x="0" y="23" width="1440" height="795" />
     </state>
