@@ -1,0 +1,59 @@
+{% extends "myApp/base.html" %}
+{% load staticfiles %} 􏰃􏰄􏰖􏰥 􏰞
+
+{% block mainBody %}
+
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+         <div class="thumbnail">
+             <br>
+            <img src="{% static 'images/graphic1.jpg' %}"
+                 height="200" width="200"
+             alt="31-day">
+            <div class="caption">
+                <h3>31-Day Fitness</h3>
+                <p>
+                    <a href="{%url 'myApp:graphic_31days' %}" class="btn btn-primary" role="button">
+                        read more
+                    </a>
+
+                </p>
+            </div>
+         </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <br>
+            <img src="{% static 'images/graphic2.jpg' %}"
+                 height="200" width="200"
+            alt="Abs">
+            <div class="caption">
+                <h3>Abs workouts</h3>
+                <p>
+                    <a href="{%url 'myApp:graphic_Abs' %}" class="btn btn-primary" role="button">
+                        read more
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <br>
+            <img src="{% static 'images/graphic3.jpg' %}"
+                  height="200" width="200"
+            alt="Arms">
+            <div class="caption">
+                <h3>Stronger Arms</h3>
+                <p>
+                    <a href="{%url 'myApp:graphic_Arms' %}" class="btn btn-primary" role="button">
+                        read more
+                    </a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock mainBody %}

@@ -1,0 +1,33 @@
+{% extends "myApp/base.html" %}
+{% load static %}
+{% load staticfiles %}
+
+{% block mainBody %}
+<br>
+    <title>31-Day Fitness</title>
+
+<div style="text-align:center">
+    <h1>31-Day Fitness Calendar</h1>
+    <br>
+    <h4>Jump start the new year by trying our 31-day fitness calendar that combines five essential bodyweight movements along with active recovery and rest days.</h4>
+    <br>
+   <h5> Our simple and effective plan features five basic movements including:</h5>
+    <br>
+     <h5>Squats</h5>
+    <h5>Push-Ups</h5>
+    <h5>Burpees</h5>
+    <h5>Lunges</h5>
+    <h5>Plank Hold</h5>
+</div>
+<br>
+
+<div style="text-align:center">
+        <img src="{% static 'images/31days_calendar1.png' %}"
+              height="800" width="900"
+        alt="31days calendar"/>
+
+</a>
+</div>
+
+{% endblock mainBody %}
+

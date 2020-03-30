@@ -48,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -64,15 +64,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myApp/static/myApp/css" />
-      <recent name="$PROJECT_DIR$/myApp/templates/myApp" />
-      <recent name="$PROJECT_DIR$/myApp/templates" />
+      <recent name="$PROJECT_DIR$/templates/myApp/Video" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/unlimit" />
+      <recent name="$PROJECT_DIR$/myApp/static/myApp/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
     </key>
   </component>
   <component name="RunManager" selected="Python.views">
@@ -155,6 +160,9 @@
       <workItem from="1584915125453" duration="6849000" />
       <workItem from="1584923605218" duration="2590000" />
       <workItem from="1584931271288" duration="170000" />
+      <workItem from="1585408104898" duration="16502000" />
+      <workItem from="1585504827701" duration="5945000" />
+      <workItem from="1585523990024" duration="472000" />
     </task>
     <servers />
   </component>

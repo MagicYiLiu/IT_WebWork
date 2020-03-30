@@ -1,0 +1,73 @@
+{% extends "myApp/base.html" %}
+{% load static %}
+{% load staticfiles %}
+
+{% block mainBody %}
+<br>
+<title>Arms workouts</title>
+
+<div style="text-align:center">
+    <h1>Arms workouts</h1>
+    <br>
+    <h5>During your time in the gym, you'll probably come across some weird and wonderful exercises,
+        with many trying to target the biceps in different ways.</h5>
+    <br>
+    <h5>But... believe us when we say, the most effective lifts are often the most basic.
+        Execute these three biceps exercises correctly in your next arm workout and reap the rewards.</h5>
+    <br>
+    <div>
+        <h5>1. BARBELL BICEP CURL</h5>
+        <h5>Classic bad form for the bicep curl includes erratic swinging at the bottom of the rep.
+            Keep your feet planted shoulder-width apart, knees slightly bent and elbows kept strictly by your side.
+            Aim for a powerful contraction to the top of the rep, with a slow three-second eccentric movement.
+ <br>
+.</h5>
+        <div style="text-align:center">
+            <img src="{% static 'images/Arms1.gif' %}"
+                 height="300" width="400"
+                 alt="Abs1"/>
+        </div>
+ <br>
+        <h5>2. DUMBBELL PREACHER CURL</h5>
+        <h5>Rotate your grip for a preacher hammer curl, giving the same amount of isolation,
+            with more focus on the forearm, Brachialis and Brachioradialis.</h5>
+         <br>
+        <div style="text-align:center">
+            <img src="{% static 'images/Arms2.gif' %}"
+                 height="300" width="400"
+                 alt="Abs2"/>
+        </div>
+ <br>
+        <h5>3. CABLE BICEP CURL</h5>
+        <h5>The cable machine can be great for drop sets and working to failure,
+            with the weight pin system making it quick and simple to alter resistance.</h5>
+         <br>
+        <div style="text-align:center">
+            <img src="{% static 'images/Arms3.gif' %}"
+                 height="300" width="400"
+                 alt="Abs3"/>
+        </div>
+ <br>
+        <h5>4. SKULL CRUSHER</h5>
+        <h5>Don't drop the weight; else you'll find out why this exercise is called the 'skull crusher'.</h5>
+         <br>
+        <div style="text-align:center">
+            <img src="{% static 'images/Arms4.gif' %}"
+                 height="300" width="400"
+                 alt="Abs4"/>
+        </div>
+ <br>
+        <h5>5. CABLE TRICEPS PUSHDOWN</h5>
+        <h5>A strict posture is key to isolating the triceps effectively. Position yourself with a balanced stance,
+            soft knees and retracted shoulders; keeping your elbows pinned by your side throughout the movement.</h5>
+         <br>
+        <div style="text-align:center">
+            <img src="{% static 'images/Arms5.gif' %}"
+                 height="300" width="400"
+                 alt="Abs5"/>
+        </div>
+    </div>
+    <br>
+</div>
+{% endblock mainBody %}
+

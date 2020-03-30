@@ -5,14 +5,13 @@ from django.contrib.auth.forms import UserCreationForm
 from .forms import extendUserData
 from .models import userData
 
-
 # Create your views here.
 
 lst = [
-    {'motion':'Barbell Bench Press', 'motionDone': False},
-    {'motion':'Flat Bench Dumbbell Press', 'motionDone': False},
-    {'motion':'Incline Dumbbell Press  ', 'motionDone': False},
-    {'motion':'Dips For Chest', 'motionDone': True},
+    {'motion': 'Barbell Bench Press', 'motionDone': False},
+    {'motion': 'Flat Bench Dumbbell Press', 'motionDone': False},
+    {'motion': 'Incline Dumbbell Press  ', 'motionDone': False},
+    {'motion': 'Dips For Chest', 'motionDone': True},
 ]
 
 
@@ -40,7 +39,7 @@ def edit(request, forloop_counter):
     global lst
     if request.method == 'POST':
         if request.POST['editDone'] == '':
-           return render(request, 'myApp/edit.html', {'warning': 'Please enter content！'})
+            return render(request, 'myApp/edit.html', {'warning': 'Please enter content！'})
         else:
             lst[int(forloop_counter) - 1]['motion'] = request.POST['editDone']
             return redirect('myApp:Homepage')
@@ -54,6 +53,7 @@ def delete(request, forloop_counter):
     lst.pop(int(forloop_counter) - 1)
     return redirect('myApp:Homepage')
 
+
 def cross(request, forloop_counter):
     global lst
     if request.POST['status'] == 'motionDone':
@@ -64,13 +64,12 @@ def cross(request, forloop_counter):
         return redirect('myApp:Homepage')
 
 
-
 def graphic(request):
     return render(request, 'myApp/graphic.html')
 
 
 def video(request):
-    return render(request, 'myApp/video.html')
+    return render(request, 'myApp//Video/video.html')
 
 
 # Create Sign in views
@@ -84,7 +83,6 @@ def signIn(request):
             return redirect("myApp:Homepage")
     else:
         return render(request, 'myApp/signIn.html')
-
 
 
 def signOut(request):
@@ -106,3 +104,15 @@ def gotoRegister(request):
 
     content = {'registerForm': registerForm}
     return render(request, 'myApp/register.html', content)
+
+
+def graphic_31days(request):
+    return render(request, 'myApp/graphic/graphic_31days.html')
+
+
+def graphic_Abs(request):
+    return render(request, 'myApp/graphic/graphic_Abs.html')
+
+
+def graphic_Arms(request):
+    return render(request, 'myApp/graphic/graphic_Arms.html')
